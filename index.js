@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 // Define the Port from Environment Variables or Default to 5000
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 // MongoDB Connection URI from Environment Variables
 const mongoURI = process.env.MONGO_URI;
